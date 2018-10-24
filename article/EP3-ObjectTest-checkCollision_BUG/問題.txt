@@ -1,0 +1,1 @@
+CheckCollision的switch字串檢查導致速度大幅降低?

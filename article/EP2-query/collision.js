@@ -1,5 +1,5 @@
 function CheckCollision(shape1, shape2) {
-    let arr = [shape1, shape2].sort((a, b) => a.collisionType > b.collisionType);
+    let arr = [shape1, shape2].sort((a, b) => (a.collisionType.localeCompare(b.collisionType)));
 
     switch (arr[0].collisionType + "," + arr[1].collisionType) {
         case "circle,point":
